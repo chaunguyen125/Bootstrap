@@ -1,0 +1,109 @@
+
+
+html {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box; /*để các thẻ kế thừa thuộc tình này từ thẻ html theo quy định của *{}*/
+}
+
+.pt-48 {
+    padding-top: 48px !important;
+}
+
+.mt-140 {
+    margin-top: 144px !important;
+}
+
+.mx-50 {
+    margin-right: 49px !important;
+    margin-left: 49px !important;
+}
+
+.text-color {
+    color: #6c757d!important;
+}
+
+.mb-40px {
+    margin-bottom: 40px !important;
+}
+
+.header_style{
+    padding-bottom: 8px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.section-separate {
+    display: block;
+    height: 48px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: solid rgba(0, 0, 0, 0.15) ;
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 0.1), inset 0 0.125em 0.5em rgb(0 0 0 / 0.15);
+}
+
+.columns-with-icons__body-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 12px;
+}
+
+.section-container {
+    padding: 48px 0 96px 0;
+}
+
+.columns-with-icons__body-content{
+    margin-top: 16px;
+
+}
+
+.right-icon {
+    margin: 0 0 2px 2px;
+}
+
+.body-content-link:hover .right-icon {
+    margin-left: 5px;
+}
+
+.hanging-icons__body-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    margin-right: 16px;
+}
+
+.hanging-icons__body-content {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.custom-cards__img {
+    position: relative;
+    width: 348px;
+    height: 434px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.custom-cards__layout{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.custom-cards__layout-date-time {
+    position: absolute;
+    bottom: 33px;
+    left: 49px;
+    right: 49px;
+}
+
+.text-shadow {
+    text-shadow: 0 0 1px #000
+}
